@@ -20,7 +20,7 @@ public abstract class MysqlBaseConfigurationTest {
   static {
     mysqlContainer =
         new MySQLContainer<>("mysql:latest")
-            .withDatabaseName("salesPoint")
+            .withDatabaseName("archetype")
             .withUsername("root")
             .withPassword("root")
             .withReuse(Boolean.TRUE);
